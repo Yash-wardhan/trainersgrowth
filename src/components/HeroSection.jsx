@@ -16,7 +16,7 @@ function Herosection() {
       <div className="flex flex-col md:flex-row justify-center gap-7 items-center mt-5">
         {/* left  */}
         <div className="flex flex-col items-center justify-center">
-          <div className=" w-[400px] md:w-[500px]"><img src="https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2024/02/Group-1-min.png" alt="Trainer"/></div>
+          <div className="sm:w-[400px] md:w-[500px]"><img src="https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2024/02/Group-1-min.png" alt="Trainer"/></div>
           <div className="mt-5 text-center">
             <p className="text-4xl font-bold text-[#0000FF]">Trainer Growth Webinar</p>
             <p className="text-xl mt-3 font-semibold">We will be your coach for 3 Hours</p>
