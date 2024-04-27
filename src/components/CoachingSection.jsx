@@ -18,7 +18,7 @@ function CoachingSection() {
   ]; 
 
   return (
-    <div className=' py-20 flex justify-center items-center flex-col'>
+    <div className=' py-20 px-1 sm:px-4 flex justify-center items-center flex-col'>
       <div className='text-4xl font-bold'>
         <p className='text-center'>Examples of what you can build a <span className='text-[#0000FF]'>coaching business about!</span></p>
         <div className='w-full mt-5 '>

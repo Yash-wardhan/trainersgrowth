@@ -3,14 +3,14 @@ import TrainerCard from './TrainerCard';
 
 function TrainerSection() {
   const trainers = [
-    { id: 1, name: 'Trainer 1', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-4.png' },
-    { id: 2, name: 'Trainer 2', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-7.png' },
-    { id: 3, name: 'Trainer 3', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-9.png' },
-    { id: 4, name: 'Trainer 4', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-11.png' },
-    { id: 5, name: 'Trainer 5', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-13.png' },
-    { id: 6, name: 'Trainer 6', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-4-1.png' },
-    { id: 7, name: 'Trainer 7', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-7-1.png' },
-    { id: 8, name: 'Trainer 8', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-5.png' },
+    { id: 1, name: 'Rajiv Talreja', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-4.png' },
+    { id: 2, name: 'Puja Puneet', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-7.png' },
+    { id: 3, name: 'Meghana Dikshit', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-9.png' },
+    { id: 4, name: 'Mac Attram', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-11.png' },
+    { id: 5, name: 'Sawan Kapoor', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-13.png' },
+    { id: 6, name: 'Prachi Mayekar', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-4-1.png' },
+    { id: 7, name: 'M.V Priyank', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-7-1.png' },
+    { id: 8, name: 'Chinha Raheja', image: 'https://trainersgrowthsummit.sgacademy.info/wp-content/uploads/2023/03/Ellipse-5.png' },
   ];
   console.log( trainers.map(item=>(item.name)) )
 
@@ -26,7 +26,7 @@ function TrainerSection() {
         </div>
       </div>
       {/* Render each TrainerCard component for each trainer */}
-      <div className=" w-[90%] mt-20 flex flex-wrap gap-10 justify-center items-center">
+      <div className=" w-full md:w-[90%] mt-20 flex flex-wrap gap-10 justify-center items-center">
         {trainers.map(trainer => (
           <TrainerCard name={trainer.name} image={trainer.image} />
         ))}

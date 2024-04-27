@@ -12,7 +12,7 @@ function WebinarSection() {
     ];
 
     return (
-        <div className='py-24  flex justify-center items-center bg-[#ECF2F6]'>
+        <div className='py-24 px-1 sm:px-3  flex justify-center items-center bg-[#ECF2F6]'>
             <div className='flex justify-center items-center flex-col'>
                 <div>
                     <p className='text-4xl font-bold text-center'>What will <span className='text-[#0000FF]'>you learn</span> in the Webinar ?</p>
